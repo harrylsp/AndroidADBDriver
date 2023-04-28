@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidADBDriver", "AndroidADBDriver\AndroidADBDriver.csproj", "{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{DCACD719-C283-404C-8CD3-9093F1B11E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{C526764E-57DD-4728-90D8-185E550F5443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}.Debug|x86.ActiveCfg = Debug|x86
+		{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}.Debug|x86.Build.0 = Debug|x86
+		{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}.Release|x86.ActiveCfg = Release|x86
+		{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}.Release|x86.Build.0 = Release|x86
+		{DCACD719-C283-404C-8CD3-9093F1B11E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCACD719-C283-404C-8CD3-9093F1B11E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCACD719-C283-404C-8CD3-9093F1B11E7B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DCACD719-C283-404C-8CD3-9093F1B11E7B}.Debug|x86.Build.0 = Debug|Any CPU
+		{DCACD719-C283-404C-8CD3-9093F1B11E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCACD719-C283-404C-8CD3-9093F1B11E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCACD719-C283-404C-8CD3-9093F1B11E7B}.Release|x86.ActiveCfg = Release|Any CPU
+		{DCACD719-C283-404C-8CD3-9093F1B11E7B}.Release|x86.Build.0 = Release|Any CPU
+		{C526764E-57DD-4728-90D8-185E550F5443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C526764E-57DD-4728-90D8-185E550F5443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C526764E-57DD-4728-90D8-185E550F5443}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C526764E-57DD-4728-90D8-185E550F5443}.Debug|x86.Build.0 = Debug|Any CPU
+		{C526764E-57DD-4728-90D8-185E550F5443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C526764E-57DD-4728-90D8-185E550F5443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C526764E-57DD-4728-90D8-185E550F5443}.Release|x86.ActiveCfg = Release|Any CPU
+		{C526764E-57DD-4728-90D8-185E550F5443}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00A6CD67-5184-4645-8C16-5C7A7E26D876}
+	EndGlobalSection
+EndGlobal
