@@ -86,6 +86,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="adb-1.0.31\LICENSE" />
+    <None Include="adb-1.0.31\README" />
+    <None Include="adb-1.0.41\mke2fs.conf" />
+    <None Include="adb-1.0.41\source.properties" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,6 +102,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adb-1.0.31\adb.exe" />
+    <Content Include="adb-1.0.31\AdbWinApi.dll" />
+    <Content Include="adb-1.0.31\AdbWinUsbApi.dll" />
+    <Content Include="adb-1.0.40\adb.exe" />
+    <Content Include="adb-1.0.40\AdbWinApi.dll" />
+    <Content Include="adb-1.0.40\AdbWinUsbApi.dll" />
+    <Content Include="adb-1.0.40\fastboot.exe" />
+    <Content Include="adb-1.0.41\adb.exe" />
+    <Content Include="adb-1.0.41\AdbWinApi.dll" />
+    <Content Include="adb-1.0.41\AdbWinUsbApi.dll" />
+    <Content Include="adb-1.0.41\dmtracedump.exe" />
+    <Content Include="adb-1.0.41\etc1tool.exe" />
+    <Content Include="adb-1.0.41\fastboot.exe" />
+    <Content Include="adb-1.0.41\hprof-conv.exe" />
+    <Content Include="adb-1.0.41\libwinpthread-1.dll" />
+    <Content Include="adb-1.0.41\make_f2fs.exe" />
+    <Content Include="adb-1.0.41\make_f2fs_casefold.exe" />
+    <Content Include="adb-1.0.41\mke2fs.exe" />
+    <Content Include="adb-1.0.41\NOTICE.txt" />
+    <Content Include="adb-1.0.41\sqlite3.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

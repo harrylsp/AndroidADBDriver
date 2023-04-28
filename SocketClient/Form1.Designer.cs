@@ -39,15 +39,15 @@
             // 
             // tbIP
             // 
-            this.tbIP.Location = new System.Drawing.Point(36, 33);
+            this.tbIP.Location = new System.Drawing.Point(307, 22);
             this.tbIP.Name = "tbIP";
-            this.tbIP.Size = new System.Drawing.Size(189, 21);
+            this.tbIP.Size = new System.Drawing.Size(129, 21);
             this.tbIP.TabIndex = 0;
             this.tbIP.Text = "127.0.0.1";
             // 
             // tbPort
             // 
-            this.tbPort.Location = new System.Drawing.Point(244, 33);
+            this.tbPort.Location = new System.Drawing.Point(457, 22);
             this.tbPort.Name = "tbPort";
             this.tbPort.Size = new System.Drawing.Size(74, 21);
             this.tbPort.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(348, 31);
+            this.btnConnect.Location = new System.Drawing.Point(355, 81);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(75, 23);
             this.btnConnect.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             // btnDisconnect
             // 
-            this.btnDisconnect.Location = new System.Drawing.Point(449, 31);
+            this.btnDisconnect.Location = new System.Drawing.Point(456, 81);
             this.btnDisconnect.Name = "btnDisconnect";
             this.btnDisconnect.Size = new System.Drawing.Size(75, 23);
             this.btnDisconnect.TabIndex = 3;
@@ -75,24 +75,24 @@
             // 
             // tbLog
             // 
-            this.tbLog.Location = new System.Drawing.Point(36, 94);
+            this.tbLog.Location = new System.Drawing.Point(21, 22);
             this.tbLog.Multiline = true;
             this.tbLog.Name = "tbLog";
             this.tbLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbLog.Size = new System.Drawing.Size(488, 121);
+            this.tbLog.Size = new System.Drawing.Size(263, 312);
             this.tbLog.TabIndex = 4;
             // 
             // tbMessage
             // 
-            this.tbMessage.Location = new System.Drawing.Point(36, 239);
+            this.tbMessage.Location = new System.Drawing.Point(307, 183);
             this.tbMessage.Multiline = true;
             this.tbMessage.Name = "tbMessage";
-            this.tbMessage.Size = new System.Drawing.Size(488, 111);
+            this.tbMessage.Size = new System.Drawing.Size(224, 82);
             this.tbMessage.TabIndex = 5;
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(449, 383);
+            this.btnSend.Location = new System.Drawing.Point(456, 311);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(75, 23);
             this.btnSend.TabIndex = 6;
@@ -104,7 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 450);
+            this.ClientSize = new System.Drawing.Size(571, 372);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.tbMessage);
             this.Controls.Add(this.tbLog);

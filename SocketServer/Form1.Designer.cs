@@ -91,27 +91,27 @@
             this.tbLog.Multiline = true;
             this.tbLog.Name = "tbLog";
             this.tbLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbLog.Size = new System.Drawing.Size(572, 142);
+            this.tbLog.Size = new System.Drawing.Size(324, 316);
             this.tbLog.TabIndex = 5;
             // 
             // tbMessage
             // 
-            this.tbMessage.Location = new System.Drawing.Point(26, 234);
+            this.tbMessage.Location = new System.Drawing.Point(366, 75);
             this.tbMessage.Multiline = true;
             this.tbMessage.Name = "tbMessage";
-            this.tbMessage.Size = new System.Drawing.Size(572, 119);
+            this.tbMessage.Size = new System.Drawing.Size(232, 119);
             this.tbMessage.TabIndex = 6;
             // 
             // tbFilePath
             // 
-            this.tbFilePath.Location = new System.Drawing.Point(26, 410);
+            this.tbFilePath.Location = new System.Drawing.Point(366, 317);
             this.tbFilePath.Name = "tbFilePath";
-            this.tbFilePath.Size = new System.Drawing.Size(334, 21);
+            this.tbFilePath.Size = new System.Drawing.Size(232, 21);
             this.tbFilePath.TabIndex = 7;
             // 
             // btnSelectFile
             // 
-            this.btnSelectFile.Location = new System.Drawing.Point(426, 408);
+            this.btnSelectFile.Location = new System.Drawing.Point(426, 368);
             this.btnSelectFile.Name = "btnSelectFile";
             this.btnSelectFile.Size = new System.Drawing.Size(75, 23);
             this.btnSelectFile.TabIndex = 8;
@@ -121,7 +121,7 @@
             // 
             // btnSendFile
             // 
-            this.btnSendFile.Location = new System.Drawing.Point(523, 408);
+            this.btnSendFile.Location = new System.Drawing.Point(523, 368);
             this.btnSendFile.Name = "btnSendFile";
             this.btnSendFile.Size = new System.Drawing.Size(75, 23);
             this.btnSendFile.TabIndex = 9;
@@ -131,7 +131,7 @@
             // 
             // btnSendMessage
             // 
-            this.btnSendMessage.Location = new System.Drawing.Point(523, 368);
+            this.btnSendMessage.Location = new System.Drawing.Point(523, 219);
             this.btnSendMessage.Name = "btnSendMessage";
             this.btnSendMessage.Size = new System.Drawing.Size(75, 23);
             this.btnSendMessage.TabIndex = 10;
@@ -143,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 450);
+            this.ClientSize = new System.Drawing.Size(639, 419);
             this.Controls.Add(this.btnSendMessage);
             this.Controls.Add(this.btnSendFile);
             this.Controls.Add(this.btnSelectFile);
