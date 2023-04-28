@@ -107,7 +107,7 @@ namespace AndroidADBDriver
         /// <param name="e"></param>
         private void btnCheckAppid_Click(object sender, EventArgs e)
         {
-            WriteToTextBox(RunADB("shell pidof com.kungeek.android.smstool.ftsp.release"));
+            WriteToTextBox(RunADB("shell pidof app的id"));
         }
 
         /// <summary>
@@ -127,7 +127,7 @@ namespace AndroidADBDriver
         /// <param name="e"></param>
         private void btnSearchAppProcess_Click(object sender, EventArgs e)
         {
-            WriteToTextBox(RunADB("shell ps -A | grep com.kungeek.android.smstool.ftsp.release | awk '{print $9}'"));
+            WriteToTextBox(RunADB("shell ps -A | grep app进程名称 | awk '{print $9}'"));
         }
 
         /// <summary>
@@ -137,7 +137,7 @@ namespace AndroidADBDriver
         /// <param name="e"></param>
         private void btnRunSMSService_Click(object sender, EventArgs e)
         {
-            WriteToTextBox(RunADB("shell am startservice -n com.kungeek.android.smstool.ftsp.release/com.kungeek.android.smstool.SmsService"));
+            WriteToTextBox(RunADB("shell am startservice -n 服务名称"));
         }
 
         /// <summary>
@@ -173,17 +173,17 @@ namespace AndroidADBDriver
         /// <param name="e"></param>
         private void startCheckSMSServer(object sender, EventArgs e)
         {
-            var p = RunADB("shell ps -A | grep com.kungeek.android.smstool.ftsp.release | awk '{print $9}'");
+            var p = RunADB("shell ps -A | grep app进程名称 | awk '{print $9}'");
 
             WriteToTextBox("查找短信服务APP=>" + p);
-            if (p.ToString().Trim() == "com.kungeek.android.smstool.ftsp.release")
+            if (p.ToString().Trim() == "app进程名称")
             {
                 WriteToTextBox("短信服务APP存活");
             }
             else
             {
                 WriteToTextBox("短信服务APP已挂");
-                WriteToTextBox("开始启动短信服务: " + RunADB("shell am startservice -n com.kungeek.android.smstool.ftsp.release/com.kungeek.android.smstool.SmsService"));
+                WriteToTextBox("开始启动短信服务: " + RunADB("shell am startservice -n 服务名称"));
             }
         }
     }
