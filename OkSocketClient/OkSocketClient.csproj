@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{908931CE-B2C7-4BD9-9F33-89E8EC6D679B}</ProjectGuid>
+    <ProjectGuid>{7C7CB0CF-D31F-4EED-A00B-57291C765D69}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AndroidADBDriver</RootNamespace>
-    <AssemblyName>AndroidADBDriver</AssemblyName>
+    <RootNamespace>OkSocketClient</RootNamespace>
+    <AssemblyName>OkSocketClient</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,27 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>..\bin\x86\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>true</Prefer32Bit>
-    <LangVersion>default</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <OutputPath>bin\x86\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -87,10 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="adb-1.0.31\LICENSE" />
-    <None Include="adb-1.0.31\README" />
-    <None Include="adb-1.0.41\mke2fs.conf" />
-    <None Include="adb-1.0.41\source.properties" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -103,28 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="adb-1.0.31\adb.exe" />
-    <Content Include="adb-1.0.31\AdbWinApi.dll" />
-    <Content Include="adb-1.0.31\AdbWinUsbApi.dll" />
-    <Content Include="adb-1.0.40\adb.exe" />
-    <Content Include="adb-1.0.40\AdbWinApi.dll" />
-    <Content Include="adb-1.0.40\AdbWinUsbApi.dll" />
-    <Content Include="adb-1.0.40\fastboot.exe" />
-    <Content Include="adb-1.0.41\adb.exe" />
-    <Content Include="adb-1.0.41\AdbWinApi.dll" />
-    <Content Include="adb-1.0.41\AdbWinUsbApi.dll" />
-    <Content Include="adb-1.0.41\dmtracedump.exe" />
-    <Content Include="adb-1.0.41\etc1tool.exe" />
-    <Content Include="adb-1.0.41\fastboot.exe" />
-    <Content Include="adb-1.0.41\hprof-conv.exe" />
-    <Content Include="adb-1.0.41\libwinpthread-1.dll" />
-    <Content Include="adb-1.0.41\make_f2fs.exe" />
-    <Content Include="adb-1.0.41\make_f2fs_casefold.exe" />
-    <Content Include="adb-1.0.41\mke2fs.exe" />
-    <Content Include="adb-1.0.41\NOTICE.txt" />
-    <Content Include="adb-1.0.41\sqlite3.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
